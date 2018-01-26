@@ -1,0 +1,111 @@
+@charset "UTF-8";
+.hotpro {
+  height: 300px;
+  width: 1200px;
+  margin: 20px auto; }
+  .hotpro .hotProHeader {
+    height: 36px;
+    line-height: 36px;
+    margin-bottom: 33px; }
+    .hotpro .hotProHeader h3 {
+      line-height: 36px;
+      font-size: 24px;
+      font-family: "微软雅黑";
+      font-weight: normal;
+      float: left;
+      width: 100px; }
+    .hotpro .hotProHeader .hotProM {
+      width: 980px;
+      height: 36px;
+      margin: 0 auto; }
+      .hotpro .hotProHeader .hotProM .seckill_p2 {
+        position: relative;
+        padding-left: 30px;
+        font-size: 14px;
+        color: #414141;
+        height: 36px;
+        background: #fff;
+        float: left;
+        line-height: 36px; }
+        .hotpro .hotProHeader .hotProM .seckill_p2 span {
+          color: red;
+          padding: 2px;
+          font-size: 18px; }
+    .hotpro .hotProHeader .hotProR {
+      width: 115px;
+      height: 36px; }
+      .hotpro .hotProHeader .hotProR .hotPage {
+        width: 45px;
+        height: 36px; }
+        .hotpro .hotProHeader .hotProR .hotPage b {
+          height: 36px;
+          line-height: 36px;
+          font-size: 16px;
+          padding: 0 1px;
+          font-weight: 600; }
+  .hotpro .hotProC {
+    height: 230px;
+    width: 100%;
+    overflow: hidden; }
+    .hotpro .hotProC a:hover {
+      text-decoration: underline;
+      color: red; }
+    .hotpro .hotProC ul {
+      height: 100%;
+      width: 2396px;
+      margin-left: 0; }
+      .hotpro .hotProC ul li {
+        width: 238.6px;
+        height: 100%;
+        border-right: 1px solid #eaeaea;
+        position: relative;
+        float: left; }
+        .hotpro .hotProC ul li .zhe {
+          width: 56px;
+          height: 56px;
+          position: absolute;
+          right: 12px;
+          top: 0px;
+          font-size: 14px;
+          color: #ffffff;
+          line-height: 56px;
+          font-family: "微软雅黑";
+          text-align: center;
+          z-index: 2;
+          background: red;
+          border-radius: 50%; }
+        .hotpro .hotProC ul li p {
+          width: 100%;
+          height: 150px;
+          display: block;
+          text-align: center; }
+          .hotpro .hotProC ul li p a {
+            display: block; }
+            .hotpro .hotProC ul li p a img {
+              width: 150px;
+              height: 150px; }
+        .hotpro .hotProC ul li .clum {
+          padding: 15px 0px 0 20px;
+          text-align: left; }
+          .hotpro .hotProC ul li .clum .secentLi {
+            color: #868686;
+            font-size: 14px;
+            padding-top: 8px;
+            display: block; }
+            .hotpro .hotProC ul li .clum .secentLi a {
+              display: block;
+              overflow: hidden;
+              white-space: nowrap;
+              text-overflow: ellipsis;
+              font-size: 14px; }
+          .hotpro .hotProC ul li .clum .thirdLi {
+            padding-top: 5px;
+            text-align: left; }
+          .hotpro .hotProC ul li .clum .newPrice {
+            font-size: 14px;
+            color: #ff4b47;
+            padding-right: 12px; }
+          .hotpro .hotProC ul li .clum .oldPrice {
+            font-size: 12px;
+            color: #888888;
+            text-decoration: line-through; }

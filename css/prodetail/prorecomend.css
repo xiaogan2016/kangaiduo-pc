@@ -1,0 +1,153 @@
+@charset "UTF-8";
+.pack-mcur {
+  background-color: white;
+  color: #006fe5;
+  border-top: 3px solid #006fe5;
+  border-bottom: 1px solid white;
+  margin-top: -1px;
+  margin-bottom: -1px;
+  border-right: 1px solid #dddddd; }
+
+.prorecommend {
+  width: 1200px;
+  margin: 0 auto;
+  height: auto;
+  overflow: hidden; }
+  .prorecommend .prorecommendCon {
+    border: 1px solid #dddddd;
+    margin-top: 20px;
+    overflow: hidden; }
+    .prorecommend .prorecommendCon .prorec-menu {
+      width: 100%;
+      height: 38px;
+      border-bottom: 1px solid #dddddd;
+      background-color: #f7f7f7;
+      color: #565656; }
+      .prorecommend .prorecommendCon .prorec-menu li {
+        float: left;
+        width: 144px;
+        height: 36px;
+        line-height: 36px;
+        text-align: center;
+        overflow: hidden;
+        cursor: pointer;
+        font-family: "微软雅黑";
+        font-size: 14px; }
+    .prorecommend .prorecommendCon .prorec {
+      width: 100%;
+      height: auto; }
+      .prorecommend .prorecommendCon .prorec .prorecL {
+        width: 960px;
+        border-right: 1px dotted #c7c7c7;
+        padding-top: 30px; }
+        .prorecommend .prorecommendCon .prorec .prorecL .pack-somepro {
+          padding-bottom: 15px;
+          width: 100%;
+          height: 205px;
+          overflow: hidden; }
+          .prorecommend .prorecommendCon .prorec .prorecL .pack-somepro .somepro-this {
+            width: 200px;
+            height: 200px;
+            float: left; }
+            .prorecommend .prorecommendCon .prorec .prorecL .pack-somepro .somepro-this .spro-this-img {
+              width: 160px;
+              height: 160px;
+              margin: 0 auto; }
+              .prorecommend .prorecommendCon .prorec .prorecL .pack-somepro .somepro-this .spro-this-img img {
+                width: 100%;
+                height: 100%; }
+          .prorecommend .prorecommendCon .prorec .prorecL .pack-somepro .text-elli {
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis; }
+          .prorecommend .prorecommendCon .prorec .prorecL .pack-somepro .padding18lr {
+            padding: 0 18px; }
+          .prorecommend .prorecommendCon .prorec .prorecL .pack-somepro .spro-this-price {
+            font-family: "微软雅黑";
+            line-height: 20px;
+            margin-top: 5px; }
+            .prorecommend .prorecommendCon .prorec .prorecL .pack-somepro .spro-this-price .spro-price-m {
+              color: #ff4040;
+              font-size: 14px;
+              font-family: arial; }
+            .prorecommend .prorecommendCon .prorec .prorecL .pack-somepro .spro-this-price .spro-price-num {
+              margin-left: 13px; }
+        .prorecommend .prorecommendCon .prorec .prorecL .spro-plus {
+          float: left;
+          color: #e8e8e8;
+          font-size: 42px;
+          font-weight: bold;
+          font-family: "微软雅黑";
+          margin-top: 64px; }
+        .prorecommend .prorecommendCon .prorec .prorecL .pack-yaosdp {
+          width: 924px;
+          height: auto;
+          padding: 18px;
+          line-height: 20px;
+          border-top: 1px dotted #c7c7c7; }
+          .prorecommend .prorecommendCon .prorec .prorecL .pack-yaosdp .yaosdp-l {
+            color: #4293e9;
+            font-family: "微软雅黑";
+            font-size: 14px;
+            float: left;
+            width: 74px;
+            padding-bottom: 40px; }
+          .prorecommend .prorecommendCon .prorec .prorecL .pack-yaosdp .yaosdp-t {
+            float: left;
+            color: #212121;
+            width: 850px;
+            font-weight: bold;
+            margin-bottom: 10px;
+            font-size: 14px;
+            overflow: hidden;
+            text-overflow: ellipsis; }
+          .prorecommend .prorecommendCon .prorec .prorecL .pack-yaosdp .yaosdp-r {
+            float: left;
+            color: #555555;
+            width: 850px; }
+      .prorecommend .prorecommendCon .prorec .prorecR {
+        width: 200px;
+        height: auto; }
+        .prorecommend .prorecommendCon .prorec .prorecR .package-cpr {
+          width: 163px;
+          margin-left: 37px; }
+          .prorecommend .prorecommendCon .prorec .prorecR .package-cpr .pack-cpr-lis {
+            width: 133px;
+            height: 32px;
+            background-image: url(/images/product/pakge-lisheng.png);
+            background-repeat: no-repeat;
+            color: #ff4040;
+            font-family: "微软雅黑";
+            text-indent: 10px;
+            line-height: 26px;
+            margin-left: 0;
+            margin-top: 74px; }
+            .prorecommend .prorecommendCon .prorec .prorecR .package-cpr .pack-cpr-lis span {
+              font-size: 14px; }
+          .prorecommend .prorecommendCon .prorec .prorecR .package-cpr .pack-cpr-price {
+            margin-top: 8px;
+            margin-bottom: 10px; }
+            .prorecommend .prorecommendCon .prorec .prorecR .package-cpr .pack-cpr-price span {
+              font-size: 20px;
+              color: #ff4040;
+              font-family: "微软雅黑";
+              font-weight: bold;
+              margin-left: 5px; }
+          .prorecommend .prorecommendCon .prorec .prorecR .package-cpr .pack-cpr-marprice {
+            color: #777777;
+            margin-bottom: 30px; }
+            .prorecommend .prorecommendCon .prorec .prorecR .package-cpr .pack-cpr-marprice span {
+              font-family: "微软雅黑";
+              text-decoration: line-through;
+              margin-left: 5px; }
+          .prorecommend .prorecommendCon .prorec .prorecR .package-cpr .pack-cpr-btn {
+            background-color: #006fe5;
+            text-align: center;
+            color: white;
+            font-family: "微软雅黑";
+            font-size: 16px;
+            width: 136px;
+            height: 36px;
+            line-height: 36px;
+            display: block;
+            margin-left: 0; }

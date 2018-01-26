@@ -1,0 +1,174 @@
+@charset "UTF-8";
+.mainfoor {
+  width: 1200px;
+  height: auto;
+  margin: 0 auto; }
+  .mainfoor .mainfoor_head {
+    width: 100%;
+    height: 90px;
+    margin-top: 20px;
+    margin-bottom: 20px; }
+    .mainfoor .mainfoor_head a {
+      display: block; }
+      .mainfoor .mainfoor_head a img {
+        width: 100%;
+        height: 100%; }
+  .mainfoor .floor {
+    width: 100%;
+    height: 538px;
+    margin-bottom: 20px; }
+    .mainfoor .floor .louHeader {
+      height: 34px;
+      margin-bottom: 10px; }
+      .mainfoor .floor .louHeader .louN {
+        float: left;
+        font-family: "微软雅黑";
+        line-height: 34px;
+        font-size: 24px; }
+      .mainfoor .floor .louHeader .color1 {
+        color: #ff3354; }
+      .mainfoor .floor .louHeader .louR {
+        width: 286px; }
+        .mainfoor .floor .louHeader .louR dl {
+          padding-top: 8px; }
+          .mainfoor .floor .louHeader .louR dl a {
+            color: #666; }
+          .mainfoor .floor .louHeader .louR dl a:hover {
+            color: red;
+            text-decoration: underline; }
+          .mainfoor .floor .louHeader .louR dl dt, .mainfoor .floor .louHeader .louR dl dd {
+            float: left;
+            line-height: 34px;
+            font-family: "微软雅黑";
+            font-size: 12px; }
+          .mainfoor .floor .louHeader .louR dl dd {
+            padding-left: 15px; }
+        .mainfoor .floor .louHeader .louR .notPro {
+          position: relative;
+          padding-left: 5px; }
+          .mainfoor .floor .louHeader .louR .notPro .hotIcon {
+            width: 9px;
+            height: 11px;
+            position: absolute;
+            right: -10px;
+            top: 0px;
+            display: block; }
+    .mainfoor .floor .contextLou {
+      height: 491px;
+      width: 100%;
+      border-bottom: 1px solid #efefef;
+      border-top: 2px solid #ff3354; }
+      .mainfoor .floor .contextLou .contextLouL {
+        width: 156px;
+        float: left;
+        border-left: 1px solid #efefef;
+        height: 100%;
+        overflow: hidden; }
+        .mainfoor .floor .contextLou .contextLouL .louLink {
+          width: 100%;
+          height: 310px;
+          padding-bottom: 4px; }
+          .mainfoor .floor .contextLou .contextLouL .louLink ul {
+            padding-left: 12px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            width: 144px; }
+            .mainfoor .floor .contextLou .contextLouL .louLink ul li {
+              float: left;
+              text-align: left;
+              width: 72px;
+              height: 30px;
+              line-height: 30px; }
+              .mainfoor .floor .contextLou .contextLouL .louLink ul li a:hover {
+                color: red;
+                text-decoration: underline; }
+        .mainfoor .floor .contextLou .contextLouL .louLogo {
+          height: 180px;
+          width: 100%; }
+          .mainfoor .floor .contextLou .contextLouL .louLogo .louLogoUL li {
+            border-top: 1px solid #efefef; }
+      .mainfoor .floor .contextLou .contextLouM {
+        width: 380px;
+        position: relative;
+        overflow: hidden;
+        height: 100%; }
+        .mainfoor .floor .contextLou .contextLouM ul {
+          height: 100%;
+          width: 1520px; }
+          .mainfoor .floor .contextLou .contextLouM ul li {
+            width: 380px;
+            height: 100%;
+            float: left; }
+            .mainfoor .floor .contextLou .contextLouM ul li a {
+              display: block;
+              height: 100%;
+              width: 100%; }
+              .mainfoor .floor .contextLou .contextLouM ul li a img {
+                width: 100%;
+                height: 100%; }
+      .mainfoor .floor .contextLou .contextLouR {
+        width: 663px;
+        height: 100%;
+        position: relative; }
+        .mainfoor .floor .contextLou .contextLouR ul {
+          width: 100%;
+          height: 100%; }
+          .mainfoor .floor .contextLou .contextLouR ul .floor_m {
+            width: 441px; }
+          .mainfoor .floor .contextLou .contextLouR ul li {
+            float: left;
+            border-right: solid 1px #efefef;
+            border-bottom: solid 1px #efefef;
+            height: 245px;
+            width: 220px;
+            text-align: center; }
+            .mainfoor .floor .contextLou .contextLouR ul li a {
+              color: #666; }
+            .mainfoor .floor .contextLou .contextLouR ul li .pic {
+              position: relative;
+              text-align: center;
+              padding: 14px 0 16px 0; }
+              .mainfoor .floor .contextLou .contextLouR ul li .pic img {
+                width: 130px;
+                height: 130px; }
+        .mainfoor .floor .contextLou .contextLouR .proName {
+          color: #000000;
+          font-size: 14px;
+          padding-bottom: 6px; }
+          .mainfoor .floor .contextLou .contextLouR .proName a {
+            color: #000000; }
+        .mainfoor .floor .contextLou .contextLouR .proNumber {
+          color: #6d6d6d;
+          font-size: 12px;
+          padding: 0px 5px 4px 5px;
+          text-align: center;
+          font-family: "微软雅黑";
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap; }
+        .mainfoor .floor .contextLou .contextLouR .proPrice {
+          color: #fe4b47;
+          font-size: 14px;
+          text-align: center;
+          padding: 0px 5px;
+          font-family: "微软雅黑"; }
+  .mainfoor .hotBrand {
+    margin-bottom: 36px; }
+    .mainfoor .hotBrand h3 {
+      font-size: 24px;
+      color: #131313;
+      font-family: "微软雅黑";
+      font-weight: normal;
+      margin-bottom: 14px; }
+    .mainfoor .hotBrand ul {
+      border-left: 1px solid #f2f2f2;
+      border-top: 1px solid #f2f2f2;
+      overflow: hidden; }
+      .mainfoor .hotBrand ul li {
+        width: 170px;
+        float: left;
+        border-right: 1px solid #f2f2f2;
+        border-bottom: 1px solid #f2f2f2; }
+        .mainfoor .hotBrand ul li img {
+          width: 170px;
+          height: 99px; }

@@ -1,0 +1,57 @@
+@charset "UTF-8";
+.changeP {
+  height: 368px;
+  width: 1200px;
+  margin: 0 auto; }
+  .changeP .changeP_head {
+    width: 100%;
+    height: 36px;
+    line-height: 36px; }
+    .changeP .changeP_head h3 {
+      line-height: 36px;
+      font-size: 24px;
+      font-family: "微软雅黑";
+      font-weight: normal;
+      float: left;
+      width: 100px; }
+    .changeP .changeP_head .changeBtn {
+      float: right;
+      width: 70px;
+      height: 23px;
+      cursor: pointer;
+      padding-top: 5px; }
+      .changeP .changeP_head .changeBtn img {
+        border: none;
+        vertical-align: middle; }
+  .changeP ul {
+    margin-top: 10px;
+    width: 100%;
+    height: 320px; }
+    .changeP ul li {
+      border: 1px solid #e6e6e6;
+      height: 100%;
+      width: 228px;
+      float: left;
+      margin-right: 10px; }
+      .changeP ul li .imgpro {
+        display: block;
+        padding: 36px 24px 30px 24px;
+        text-align: center; }
+      .changeP ul li .hotPadding {
+        padding: 0px 24px; }
+        .changeP ul li .hotPadding .nameC {
+          color: #888888;
+          font-size: 14px;
+          line-height: 180%; }
+          .changeP ul li .hotPadding .nameC a {
+            display: block;
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis; }
+        .changeP ul li .hotPadding .priceC {
+          color: #ff5553;
+          font-size: 14px;
+          line-height: 180%;
+          overflow: hidden;
+          white-space: nowrap;
+          text-overflow: ellipsis; }

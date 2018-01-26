@@ -1,0 +1,156 @@
+.productdetail{
+    width: 100%;
+    height: auto;
+    margin-top:20px; 
+    margin-bottom: 20px;
+    overflow: hidden;
+    .prodetailcon{
+        width:1200px;
+        margin: 0 auto;
+        .prodetailL{
+            width: 198px;
+            height: auto;
+            border: 1px solid #dddddd;
+            .com-greybg {
+                color: #555555;
+                background-color: #f7f7f7;
+                font-family: "微软雅黑";
+                font-weight: normal;
+                font-size: 14px;
+                text-indent: 12px;
+                height: 38px;
+                line-height: 38px;
+                border-bottom: 1px solid #dddddd;
+            }
+            .buylook-list{
+                width: 100%;
+                height: auto;
+                li {
+                    width: 174px;
+                    height: 209px;
+                    border-top: 1px dotted #c6c6c6;
+                    font-family: "微软雅黑";
+                    .buylook-proimg {
+                        width: 120px;
+                        height: 120px;
+                        padding-top: 5px;
+                        margin: 0 auto;
+                        a{
+                            display: block;
+                            width: 100%;
+                            height: 100%;
+                            img{
+                                width: 100%;
+                                height: 100%;
+                            }
+                        }
+                    }
+                    w-pading5 {
+                        padding-left: 5px;
+                        padding-right: 5px;
+                    }
+                    .buylook-line1 {
+                        max-height: 20px;
+                        line-height: 20px;
+                        height: 20px;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                    }
+                    .w-pading5 {
+                        padding-left: 5px;
+                        padding-right: 5px;
+                    }
+                    .buylook-line2 {
+                        max-height: 38px;
+                        line-height: 18px;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        color:#999;
+                    }
+                    .buylook-proprice {
+                        color: #ff403d;
+                        padding-bottom: 10px;
+                        font-family: Arial, Verdana, "\5b8b\4f53";
+                        font-size: 14px;
+                    }
+                   
+                }
+                li:first-child {
+                    border-top: none;
+                }
+            }
+        }
+        .prodetailR{
+            width: 988px;
+            height: auto;
+            border: 1px solid #dddddd;
+            .prodetail-menu{
+                width: 100%;
+                height: 38px;
+                border-bottom: 1px solid #dddddd;
+                background-color: #f7f7f7;
+                color: #565656;
+                li {
+                    float: left;
+                    width: 144px;
+                    height: 36px;
+                    line-height: 36px;
+                    text-align: center;
+                    overflow: hidden;
+                    cursor: pointer;
+                    font-family: "微软雅黑";
+                    font-size: 14px;
+                }
+            }
+            .infor-list {
+                padding-left: 16px;
+                padding-right: 12px;
+                ul {
+                    padding-top: 20px;
+                    padding-bottom: 70px;
+                    li {
+                        width: 31%;
+                        margin-right: 2%;
+                        margin-bottom: 2px;
+                        line-height: 20px;
+                        float: left;
+                        color: #888888;
+                        overflow: hidden;
+                        white-space: nowrap;
+                        text-overflow: ellipsis;
+                    }
+                }
+            }
+            .prograph{
+                width: 100%;
+                height: auto;
+                .prograph-title{
+                    background-color: #f7f7f7;
+                    border-top: 1px solid #dddddd;
+                    border-bottom: 1px solid #dddddd;
+                    font-family: "微软雅黑";
+                    height: 48px;
+                    line-height: 48px;
+                    h3{
+                        height: 26px;
+                        line-height: 26px;
+                        margin-top: 11px;
+                        margin-bottom: 11px;
+                        margin-left: -1px;
+                        border-left: 6px solid #0073fe;
+                        text-indent: 16px;
+                        font-size: 18px;
+                        display: inline-block;
+                        vertical-align: middle;
+                        font-weight: normal;
+                    }
+                }
+                .prographall{
+                    width: 100%;
+                    height: auto;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}

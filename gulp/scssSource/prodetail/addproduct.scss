@@ -1,0 +1,548 @@
+.addproduct{
+    width: 1200px;
+    height: 800px;
+    margin: 0 auto;
+    overflow: hidden;
+    .addproductlink{
+        width: 100%;
+        height: 16px;
+        .dtl-nav-lastbule {
+            color: #0066d4;
+        }
+        a {
+            color: #222222;
+        }
+        a:hover{
+            color: red;
+            text-decoration: underline;
+        }
+    }
+    .addProCon{
+        margin-top: 4px;
+        height: 778px;
+        width: 1198px;
+        border: 1px solid #dddddd;
+        .addProConL{
+            width: 383px;
+            height: 100%;
+            .w-dtl-mag-lar {
+                width: 383px;
+                height: 383px;
+                position: relative;
+                .w-dtl-mag-logo {
+                    position: absolute;
+                    width: 100px;
+                    height: 100px;
+                    left: 15px;
+                    top: 15px;
+                    background: url(/images/product/producticon_5.png) no-repeat;
+                }
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            .double11-lcjh {
+                margin-left: 10px;
+                width: 350px;
+                height: 48px;
+                background: url(http://image.360kad.com/group2/M00/31/B6/CgAgFFplXS2AWyvsAAARCshMeGk478.png?v201702) no-repeat;
+                color: #222;
+                font-family: "微软雅黑";
+                ul {
+                    padding-top: 16px;
+                    margin-left: 72px;
+                    height: 18px;
+                    overflow: hidden;
+                    li {
+                        float: left;
+                        height: 20px;
+                        line-height: 16px;
+                        padding-left: 5px;
+                        padding-right: 5px;
+                        border-left: 1px solid #b0aeaa;
+                        span {
+                            font-size: 14px;
+                            font-weight: bold;
+                            color: #fc3535;
+                        }
+                    }
+                    li:first-child {
+                        padding-left: 0;
+                        border-left: none;
+                    }
+                }
+            }
+            .minPicScroll{
+                width: 383px;
+                height: 60px;
+                margin: 15px 0 ;
+                ul{
+                    margin-left: 20px;
+                    width: 330px;
+                    height: 60px;
+                    overflow: hidden;
+                    li {
+                        width: 58px;
+                        height: 58px;
+                        float: left;
+                        border: 1px solid #eeeeee;
+                        margin-left: 3px;
+                        margin-right: 3px;
+                        img{
+                            width: 100%;
+                            height: 100%;
+                        }
+                    }
+                }
+            }
+            .w-dtl-snext {
+                margin-left: 13px;
+                margin-right: 13px;
+                padding-bottom: 10px;
+                border-bottom: 1px dotted #b5b5b5;
+                height: 26px;
+                line-height: 26px;
+                .w-dtl-snext-r {
+                    width: 120px;
+                    height: 27px;
+                    .w-dtl-snr-conllection {
+                        background: url(/images/product/more-lo.png) no-repeat 6px -24px;
+                        text-indent: 20px;
+                        width: 60px;
+                        height: 26px;
+                        line-height: 26px;
+                        display: block;
+                        float: left;
+                        text-align: center;
+                        color: #222222;
+                    }
+                    .w-dtl-snr-share {
+                        background: url(/images/product/more-lo.png) no-repeat;
+                        text-indent: 22px;
+                        width: 58px;
+                        height: 26px;
+                        line-height: 24px;
+                        display: block;
+                        float: right;
+                        text-align: center;
+                        color: #222222;
+                        border-top: 1px solid white;
+                        border-right: 1px solid white;
+                        border-left: 1px solid white;
+                        background-position: 8px -4px;
+                    }
+                }
+                
+            }
+            .w-dtl-kd-remd {
+                width: 357px;
+                height: 40px;
+                padding: 10px 13px;
+                color: #888888;
+                line-height: 20px;
+                .kd-remd-yel {
+                    color: #ff8400;
+                }
+            }
+            
+        }
+        // 中间部分
+        .addProConM{
+            width: 608px;
+            height: 100%;
+            padding-right: 18px;
+            border-right: 1px solid #dddddd;
+            min-height: 564px;
+            overflow: hidden;
+            .proName{
+                margin: 20px 0 5px 0;
+                height: 26px;
+                width: 100%;
+                font-size: 20px;
+                font-family: "微软雅黑";
+                font-weight: bold;
+            }
+            .prem-prodesc{
+                height: 35px;
+                width: 100%;
+                margin: 5px 0 10px 0;
+                color: #ff4040;
+                line-height: 18px;
+                font-family: "微软雅黑";
+                font-size: 14px;
+                .bule-unline {
+                    color: #006fe6;
+                }
+                a:hover{
+                    text-decoration: underline;
+                }
+            }
+            .double11-promote {
+                width: 608px;
+                height: 56px;
+                font-family: "微软雅黑";
+                background: url(/images/product/activebg1.png) no-repeat;
+                .double11-actime {
+                    color: white;
+                    padding-top: 24px;
+                    margin-left: 180px;
+                    width: 196px;
+                    height: 16px;
+                    line-height: 16px;
+                }
+                .double11-tegong {
+                    width: 139px;
+                    height: 55px;
+                    color: #222;
+                    margin-right: 31px;
+                    text-align: center;
+                    font-size: 14px;
+                    p {
+                        line-height: 20px;
+                    }
+                    p:first-child {
+                        margin-top: 8px;
+                    }
+                    .tegong-p2 span {
+                        color: #f83938;
+                        font-size: 18px;
+                        font-weight: bold;
+                    }
+                }
+            }
+            .prem-ac-information {
+                width: 100%;
+                height: 186px;
+                background-color: #f3f3f3;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                .prem-nophone{
+                    width: 608px;
+                    height: 40px;
+                    .grey888 {
+                        color: #888888;
+                    }
+                    .nophone-l {
+                        width: 60px;
+                        margin-top: 20px;
+                        padding-left: 14px;
+                    }
+                    .nophone-r {
+                        float: left;
+                        width: 520px;
+                        font-family: "微软雅黑";
+                        span {
+                            float: left;
+                            color: #fc3535;
+                            font-weight: bold;
+                        }
+                        .nophone-rspan1 {
+                           
+                            font-size: 20px;
+                            margin-top: 11px;
+                        }
+                        .nophone-rspan2 {
+                            font-size: 30px;
+                        }
+                        .nophone-rspan3 {
+                            color: #888888;
+                            font-size: 14px;
+                            text-decoration: line-through;
+                            margin-left: 24px;
+                            margin-top: 15px;
+                            font-weight: normal;
+                        }
+                    }
+                }
+                .prem-ac-ifm-cuxiao {
+                    height: 133px;
+                    width: 100%;
+                    padding-top: 10px;
+                    overflow: hidden;
+                    .prem-w60 {
+                        width: 60px;
+                        height: 100%;
+                        margin-left: 14px;
+                        padding-top:10px;
+                        color: #888;
+                        display: block;
+                    }
+                    .prem-cxactive {
+                        padding-left: 5px;
+                        width: 529px;
+                        ul{
+                            width: 100%;
+                            height: 100%;
+                            li {
+                                margin-bottom: 10px;
+                                width: 529px;
+                                height: auto;
+                                .prem-cuinfor-l {
+                                    float: left;
+                                    width: 30px;
+                                    height: 18px;
+                                    line-height: 18px;
+                                    text-align: center;
+                                    display: block;
+                                    color: white;
+                                    margin-right: 7px;
+                                    background-color: #f8a171;
+                                }
+                                .prem-cuinfor-r {
+                                    float: left;
+                                    width: 478px;
+                                    p {
+                                        line-height: 18px;
+                                        .bule-unline {
+                                            color: #006fe6;
+                                        }
+                                        a:hover{
+                                            text-decoration: underline;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .prem-dtl-infomation{
+                width:100%;
+                height: 403px;
+                .grey888 {
+                    color: #888888;
+                }
+                .dtl-inf-top {
+                    margin-top: 9px;
+                    height: 72px;
+                    width: 100%;
+                    border-bottom: 1px dotted #b5b5b5;
+                    padding-bottom: 6px;
+                    .dtl-inf-com {
+                        margin-bottom: 4px;
+                        line-height: 20px;
+                        .dtl-inf-l {
+                            width: 85px;
+                            float: left;
+                            padding-left: 14px;
+                            color:#888;
+                        }
+                    }
+                    
+                }
+                .dtl-inf-middle{
+                    width: 100%;
+                    height: 268px;
+                    margin-top: 14px;
+                    .dtl-inf-com {
+                        margin-bottom: 8px;
+                    }
+                    .dtl-inf-l {
+                        width: 85px;
+                        float: left;
+                        padding-left: 14px;
+                        margin-top: 9px;
+                    }
+                    .dtl-inf-r {
+                        float: left;
+                        width: 509px;
+                        overflow: hidden;
+                        li{
+                            height: 28px;
+                            line-height: 28px;
+                            border: 1px solid #b5b5b5;
+                            padding-left: 10px;
+                            padding-right: 10px;
+                            float: left;
+                            margin-right: 8px;
+                            margin-bottom: 6px;
+                            cursor: pointer;
+                            overflow: hidden;
+                        }
+                        .dtl-inf-rur {
+                            border: 1px solid #ff4040;
+                            background: url(/images/product/xqy-li-bottom.png) no-repeat bottom right;
+                        }
+                    }
+                    #spec_box{
+                        width: 100%;
+                        height: 36px;
+                    }
+                    #course_treat {
+                        background-color: #ffeae7;
+                        padding-top: 8px;
+                        width: 100%;
+                        height: 72px;
+                    }
+                    #pronum{
+                        height: 32px;
+                        width:100%;
+                    }
+                    //数量
+                    .inf-r-num-box{
+                        height: 32px;
+                        width:100%;
+                        .inf-r-numjs {
+                            float: left;
+                            width: 120px;
+                            height: 30px;
+                            line-height: 30px;
+                            border: 1px solid #b5b5b5;
+                            a{
+                                color:#000;
+                            }
+                            a:hover{
+                                text-decoration: none;
+                            }
+                            .numjs-com {
+                                float: left;
+                                width: 30px;
+                                display: block;
+                                text-align: center;
+                                font-size: 24px;
+                                font-family: "微软雅黑";
+                                cursor: pointer;
+                            }
+                            .numjs-m {
+                                width: 58px;
+                                height: 30px;
+                                border: none;
+                                border-left: 1px solid #b5b5b5;
+                                border-right: 1px solid #b5b5b5;
+                                text-align: center;
+                                color: #212121;
+                                float: left;
+                                line-height: 30px;
+                            }
+                            .numjs-r {
+                                float: right;
+                                color: #212121;
+                            }
+                        } 
+                    }
+                    .inf-rrzt {
+                        float: left;
+                        width: 377px;
+                        height: 32px;
+                        line-height: 32px;
+                        .inf-rrzt-bule {
+                            margin-left: 14px;
+                            color: #4192e9;
+                            font-size: 14px;
+                            font-family: "微软雅黑";
+                        }
+                    }
+
+                    //广告部分：建议下载app
+                    .download_app {
+                        width:100%;
+                        height: 30px;
+                        .inf-r-wxhb{
+                            margin-top: 12px;
+                            position: relative;
+                            width: 320px;
+                            height: 14px;
+                            line-height: 14px;
+                            margin-left: 70px;
+                            a{
+                                color:red;
+                            }
+                        }
+                    }
+
+                    //加入购物车按钮
+                    .addCart{
+                        width: 100%;
+                        height: 62px;
+                        .addCartBtn{
+                            display: block;
+                            width: 160px;
+                            height: 46px;
+                            text-align: center;
+                            line-height: 46px;
+                            margin-left: 79px;
+                            color: white;
+                            font-size: 18px;
+                            font-family: "微软雅黑";
+                            background-color: #0d7ff9;
+                        }
+                    }
+
+                    //正品承诺
+                    .dtl-inf-fot {
+                        width: 100%;
+                        height: 32px;
+                        margin-top: 10px;
+                        padding-bottom: 16px;
+                        position: relative;
+                        .inf-r-bzhi{ 
+                            width: 100%;
+                            height: 32px; 
+                            line-height: 32px;     
+                            li {
+                                border:none;
+                                float: left;
+                                background-repeat: no-repeat;
+                                text-indent: 16px;
+                                height: 32px; 
+                                line-height: 32px;  
+                                margin-right: 20px;
+                                background-position: 0 -120px;
+                            }
+                        }
+                       
+                    }
+                }
+            }
+           
+        }
+        .addProConR{
+            width: 188px;
+            height: 100%;
+            .pref-ourservice {
+                height: 70px;
+                width: 100%;
+                padding:30px 0 ;
+                ul{
+                    width: 100%;
+                    height: 100%;
+                    li{
+                        float: left;
+                        width: 33%;
+                        text-align: center;
+                        font-family: "微软雅黑";
+                        span {
+                            width: 42px;
+                            height: 42px;
+                            margin: 0 auto;
+                            display: block;
+                            margin-bottom: 9px;
+                            background: url(/images/product/zpys39.png) no-repeat; 
+                        }
+                    }
+                }
+               
+            }
+            .prer-kad-online {
+                margin:  0 auto;
+                width: 167px;
+                border-top: 1px dotted #b5b5b5;
+                border-bottom: 1px dotted #b5b5b5;
+                padding-bottom: 36px;
+                .kad-onl-dg {
+                    margin-top: 26px;
+                    margin-bottom: 20px;
+                }
+            }
+            .prer-wxsmgz {
+                text-align: center;
+                font-family: "微软雅黑";
+                .wxsmgz-img {
+                    padding-top: 30px;
+                    padding-bottom: 12px;
+                }
+            }
+        }
+    }
+}

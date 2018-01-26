@@ -1,0 +1,225 @@
+// mainfoor楼层导航模块
+.mainfoor{
+    width: 1200px;
+    height: auto;
+    margin: 0 auto;
+    .mainfoor_head{
+        width: 100%;
+        height: 90px;
+        margin-top:20px;
+        margin-bottom: 20px;
+        a{
+            display: block;
+            img{
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+    .floor{
+        width: 100%;
+        height: 538px;
+        margin-bottom: 20px;
+        .louHeader {
+            height: 34px;
+            margin-bottom: 10px;
+            .louN {
+                float: left;
+                font-family: "微软雅黑";
+                line-height: 34px;
+                font-size: 24px;
+            }
+            .color1 {
+                color: #ff3354;
+            }
+            .louR{
+                width: 286px;
+                dl{
+                    padding-top: 8px;
+                    a{
+                        color: #666;
+                    }
+                    a:hover{
+                        color:red;
+                        text-decoration: underline;
+                    }
+                    dt,dd{ 
+                        float: left;
+                        line-height: 34px;
+                        font-family: "微软雅黑";
+                        font-size: 12px;
+                    }
+                    dd{
+                        padding-left: 15px;
+                    }
+                }
+                .notPro {
+                    position: relative;
+                    padding-left: 5px;
+                    .hotIcon {
+                        width: 9px;
+                        height: 11px;
+                        position: absolute;
+                        right: -10px;
+                        top: 0px;
+                        display: block;
+                    }
+                    
+                }
+               
+                
+            }
+        }
+        .contextLou{
+            height: 491px;
+            width: 100%;
+            border-bottom: 1px solid #efefef;
+            border-top: 2px solid #ff3354;
+            .contextLouL{
+                width: 156px;
+                float: left;
+                border-left: 1px solid #efefef;
+                height: 100%;
+                overflow: hidden;
+                .louLink {
+                    width: 100%;
+                    height: 310px;
+                    padding-bottom: 4px;
+                    ul {
+                        padding-left: 12px;
+                        padding-top: 5px;
+                        padding-bottom: 5px;
+                        width: 144px;
+                        li {
+                            float: left;
+                            text-align: left;
+                            width: 72px;
+                            height: 30px;
+                            line-height: 30px;
+                            a:hover{
+                                color: red;
+                                text-decoration: underline;
+                            }
+                        }
+                    }
+                }
+                .louLogo {
+                    height: 180px;
+                    width: 100%;
+                    .louLogoUL{
+                        li{
+                            border-top: 1px solid #efefef;
+                        }
+                    }
+                }
+            }
+            .contextLouM{
+                width: 380px;
+                position: relative;
+                overflow: hidden;
+                height: 100%;
+                ul{
+                    height: 100%;
+                    width: 1520px;
+                    li{
+                        width: 380px;
+                        height: 100%;
+                        float: left;
+                        a{
+                            display: block;
+                            height: 100%;
+                            width: 100%;
+                            img{
+                                width: 100%;
+                                height: 100%;
+                            }
+                        }
+                    }
+                }
+            }
+            .contextLouR{
+                width: 663px;
+                height: 100%;
+                position: relative;
+                ul{
+                    width: 100%;
+                    height: 100%;
+                    .floor_m {
+                        width: 441px;
+                    }
+                    li{
+                        float: left;
+                        border-right: solid 1px #efefef;
+                        border-bottom: solid 1px #efefef;
+                        height: 245px;
+                        width: 220px;
+                        text-align: center;
+                        a{
+                            color: #666;
+                        }
+                        .pic {
+                            position: relative;
+                            text-align: center;
+                            padding: 14px 0 16px 0;
+                            img {
+                                width: 130px;
+                                height: 130px;
+                            }
+                        }
+                        
+                    }
+                }
+                .proName {
+                    color: #000000;
+                    font-size: 14px;
+                    padding-bottom: 6px;
+                    a {
+                        color: #000000;
+                    }
+                }
+                .proNumber {
+                    color: #6d6d6d;
+                    font-size: 12px;
+                    padding: 0px 5px 4px 5px;
+                    text-align: center;
+                    font-family: "微软雅黑";
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    white-space: nowrap;
+                }
+                .proPrice {
+                    color: #fe4b47;
+                    font-size: 14px;
+                    text-align: center;
+                    padding: 0px 5px;
+                    font-family: "微软雅黑";
+                }
+            }
+        }
+    }
+    .hotBrand {
+        margin-bottom: 36px;
+        h3 {
+            font-size: 24px;
+            color: #131313;
+            font-family: "微软雅黑";
+            font-weight: normal;
+            margin-bottom: 14px;
+        }
+        ul {
+            border-left: 1px solid #f2f2f2;
+            border-top: 1px solid #f2f2f2;
+            overflow: hidden;
+            li {
+                width: 170px;
+                float: left;
+                border-right: 1px solid #f2f2f2;
+                border-bottom: 1px solid #f2f2f2;
+                img {
+                    width: 170px;
+                    height: 99px;
+                }
+            }
+        }
+    }
+}

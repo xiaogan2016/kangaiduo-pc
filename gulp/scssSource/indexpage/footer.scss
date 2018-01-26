@@ -1,0 +1,191 @@
+.footer{
+    width: 100%;
+    height: auto;
+    background: #1a82ee;
+    .item01 {
+        width: 100%;
+        height: 109px;
+        border-bottom: 1px solid #147ce8;
+        .width1200{
+            width: 1200px;
+            position: relative;
+            margin: 0 auto;
+            dl {
+                width: 100%;
+                padding: 30px 0px;
+                dd {
+                    float: left;
+                    padding-right: 58px;
+                    img {
+                        float: left;
+                        margin-right: 8px;
+                    }
+                    .medicineWorld {
+                        float: left;
+                        color: #ffffff;
+                        .t {
+                            font-size: 20px;
+                            font-weight: 400;
+                            font-family: "Microsoft YaHei";
+                            margin-bottom: 5px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .item02 {
+        border-top: 1px solid #0c74df;
+        border-bottom: 0;
+        height: 239px;
+        .width1200 {
+            padding: 36px 0 40px 20px;
+            width: 1180px;
+            height: 162px;
+        }
+        .lside {
+            float: left;
+            width: 248px;
+            color: #fff;
+            border-right: 1px solid #0c74df;
+            padding-right: 50px;
+            .appCode {
+                float: left;
+                width: 106px;
+                .title {
+                    padding-bottom: 8px;
+                    text-align: center;
+                    font-family: "Microsoft YaHei";
+                    font-size: 14px;
+                }
+                .code {
+                    width: 106px;
+                    height: 106px;
+                    background: url(http://res.360kad.com/theme/default/img/2014newKad/codeallbgs.gif) 0 0 no-repeat;
+                }
+                .pl8 {
+                    padding-top: 8px;
+                    text-align: center;
+                    font-family: "Microsoft YaHei";
+                    font-size: 14px;
+                }
+            }
+            .weixinCode {
+                float: right;
+                width: 106px;
+                .title {
+                    padding-bottom: 8px;
+                    text-align: center;
+                    font-family: "Microsoft YaHei";
+                    font-size: 14px;
+                }
+                .code {
+                    width: 106px;
+                    height: 106px;
+                    background: url(http://res.360kad.com/theme/default/img/2014newKad/codeallbgs.gif) -106px 0 no-repeat;
+                }
+                .title02 {
+                    padding-top: 8px;
+                    width: 106px;
+                    line-height: 16px;
+                    text-align: center;
+                    font-family: "Microsoft YaHei";
+                    font-size: 14px;
+                }
+            }
+        }
+        .mside {
+            float: right;
+            li {
+                float: left;
+                width: 114px;
+                text-align: left;
+                color: #fff;
+                line-height: 22px;
+                .title {
+                    padding-bottom: 12px;
+                    font: bold 16px/24px "";
+                }
+                a {
+                    color: #fff;
+                    text-decoration: none;
+                    font-family: "Microsoft YaHei";
+                }
+                a:hover{
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}
+.footer_list {
+    padding-top: 10px;
+    width: 100%;
+    height: 280px;
+    line-height: 22px;
+    .width1200 {
+        width: 1200px;
+        margin: 0 auto;
+        p .title {
+            font-weight: bold;
+            color: #666;
+        }
+    }
+    a{
+        padding-right: 12px;
+        color: #666;
+    }
+    a:hover{
+        color:red;
+        text-decoration: underline;
+    }
+    .aboutKadList {
+        margin-top: 6px;
+        padding-top: 6px;
+        text-align: center;
+    }
+    p .friendLinks {
+        height: 22px;
+        overflow: hidden;
+    }
+    .diploma_list {
+        padding: 0 0 20px 16px;
+        text-align: center;
+    }
+    .hyRz {
+        width: 100%;
+        text-align: center;
+        height: 47px;
+        li {
+            width: 128px;
+            height: 100%;
+            padding-left: 8px;
+            display: inline-block;
+            a {
+                padding-right: 0;
+                float: left;
+                color: #333;
+                line-height: 18px;
+            }
+            a:hover{
+                color:red;
+                text-decoration: underline;
+            }
+            .txt {
+                padding-right: 4px;
+                width: 82px;
+                background: url(http://res.360kad.com/theme/default/img/2014newKad/rightLine.png) no-repeat right 6px;
+            }
+        }
+    }
+    .bottom {
+        padding: 5px 0;
+        text-align: center;
+        color: #666;
+        height: 31px;
+        a {
+            padding-right: 0;
+        }
+       
+    }
+}

@@ -1,0 +1,41 @@
+.category {
+  height: 580px;
+  width: 100%; }
+  .category .category_con {
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto; }
+    .category .category_con .category_con_title {
+      height: 92px;
+      width: 100%;
+      background: url(../../images/category/category_con_title.png) no-repeat top center; }
+    .category .category_con .category_con_list1 {
+      height: 245px;
+      width: 100%;
+      background: url(../../images/category/category_list_img1.png) no-repeat top center; }
+      .category .category_con .category_con_list1 ul {
+        width: 100%;
+        height: 244px; }
+        .category .category_con .category_con_list1 ul li {
+          width: 240px;
+          height: 244px;
+          float: left; }
+          .category .category_con .category_con_list1 ul li a {
+            width: 240px;
+            height: 244px;
+            display: block; }
+    .category .category_con .category_con_list2 {
+      height: 245px;
+      width: 100%;
+      background: url(../../images/category/category_list_img2.png) no-repeat top center; }
+      .category .category_con .category_con_list2 ul {
+        width: 100%;
+        height: 244px; }
+        .category .category_con .category_con_list2 ul li {
+          width: 240px;
+          height: 244px;
+          float: left; }
+          .category .category_con .category_con_list2 ul li a {
+            width: 240px;
+            height: 244px;
+            display: block; }

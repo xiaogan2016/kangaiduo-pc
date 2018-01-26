@@ -1,0 +1,161 @@
+.nav{
+    width:100%;
+    height: 38px;
+    border-bottom: 2px solid #0063cd;
+    .navc{
+        width: 1200px;
+        height: 100%;
+        margin: 0 auto;
+        .all_classify{
+            width: 180px;
+            height: 38px;
+            background: #0066d4;
+            border-bottom: 2px solid #0063cd;
+            z-index: 4;
+            position: relative;  
+            h2{
+                line-height: 38px;
+                text-align: center;
+                font-size: 18px;
+                font-family: "Microsoft YaHei";
+                background: url(../../images/nav/quan.png) no-repeat 22px center;
+                a{
+                    color: #FFFFFF;
+                    line-height: 36px;
+                    padding: 0px 25px;
+                    font-weight: normal;
+                }
+                a:hover{
+                    text-decoration: underline;
+                }
+            }
+            .classify{
+                width: 180px;
+                height: 400px;
+                background: #036dde;
+                position: absolute;
+                left: 0;
+                top: 40px;
+                z-index: 5;
+                font-family: "microsoft yahei";
+                .classify_ul{
+                    a:hover{
+                        text-decoration: underline;
+                    }
+                    width: 100%;
+                    height: 100%;
+                    li{
+                        width: 180px;
+                        height: 40px;
+                        line-height: 40px;
+                        padding: 0 15px;
+                        box-sizing: border-box;
+                        position: relative;
+                        .bor{
+                            width: 100%;
+                            height: 39px;
+                            border-bottom: 1px dashed #0a5fbb;
+                            a{
+                                color: #c2d8fe;
+                                font-size: 14px;
+                                b{
+                                    font-weight: 600;
+                                    color: #fff;
+                                }
+                            }             
+                        }
+                        .lNav_pop{
+                            position: absolute;
+                            left: 179px;
+                            top: 0;
+                            width: 1022px;
+                            min-height: 400px;
+                            padding: 20px 35px 20px 0;
+                            background: #fff;
+                            box-sizing: border-box;
+                            z-index: 100;
+                            display: none;
+                            dt{
+                                float: left;
+                                width: 92px;
+                                height: 39px;
+                                padding-right: 42px;
+                                text-align: right;
+                                font-size: 14px;
+                                font-weight: bold;
+                                color: #333;
+                                background: url(../../images/nav/r-btn.png) no-repeat;
+                                background-position: 108px center;
+                                background-size: 5px 8px;
+                            }
+                            dd{
+                                position: relative;
+                                width: 845px;
+                                height: 100%;
+                                font-size: 14px;
+                                color: #b8b8b8;
+                                float: left;
+                                overflow: hidden;
+                                background: #fff url(../../images/nav/border_img.jpg) repeat-x left bottom;
+                                a{  
+                                    font-size: 14px;
+                                    color: #666;
+                                    padding: 0 10px;
+                                    .keys{
+                                        color: red;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    li:hover{
+                        background: white;
+                        .bor{
+                            width: 100%;
+                            height: 39px;
+                            border-bottom: 0;
+                            a{
+                                color: #0a5fbb;
+                                font-size: 14px;
+                                b{
+                                    font-weight: 600;
+                                    color: #0a5fbb;
+                                }
+                            }
+                           
+                        }
+                    }
+                }
+            }
+           
+        }
+        .navc_list{
+            padding-left: 1px;
+            height: 100%;
+            li{
+                float: left;
+                height: 38px;
+                a{
+                    color: #000;
+                    display: block;
+                    line-height: 38px;
+                    padding: 0px 20px;
+                    font-family: "Microsoft YaHei";
+                    font-size: 16px;
+                }
+                a:hover{
+                    color:#0063cd;
+                }
+            }
+            .kad-mc-ask {
+                position: relative;
+                z-index: 20;
+            }
+            .kad-mc-ask i {
+                position: absolute;
+                right: 5px;
+                top: 18px;
+            }
+        }
+    }
+}

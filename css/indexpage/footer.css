@@ -1,0 +1,152 @@
+.footer {
+  width: 100%;
+  height: auto;
+  background: #1a82ee; }
+  .footer .item01 {
+    width: 100%;
+    height: 109px;
+    border-bottom: 1px solid #147ce8; }
+    .footer .item01 .width1200 {
+      width: 1200px;
+      position: relative;
+      margin: 0 auto; }
+      .footer .item01 .width1200 dl {
+        width: 100%;
+        padding: 30px 0px; }
+        .footer .item01 .width1200 dl dd {
+          float: left;
+          padding-right: 58px; }
+          .footer .item01 .width1200 dl dd img {
+            float: left;
+            margin-right: 8px; }
+          .footer .item01 .width1200 dl dd .medicineWorld {
+            float: left;
+            color: #ffffff; }
+            .footer .item01 .width1200 dl dd .medicineWorld .t {
+              font-size: 20px;
+              font-weight: 400;
+              font-family: "Microsoft YaHei";
+              margin-bottom: 5px; }
+  .footer .item02 {
+    border-top: 1px solid #0c74df;
+    border-bottom: 0;
+    height: 239px; }
+    .footer .item02 .width1200 {
+      padding: 36px 0 40px 20px;
+      width: 1180px;
+      height: 162px; }
+    .footer .item02 .lside {
+      float: left;
+      width: 248px;
+      color: #fff;
+      border-right: 1px solid #0c74df;
+      padding-right: 50px; }
+      .footer .item02 .lside .appCode {
+        float: left;
+        width: 106px; }
+        .footer .item02 .lside .appCode .title {
+          padding-bottom: 8px;
+          text-align: center;
+          font-family: "Microsoft YaHei";
+          font-size: 14px; }
+        .footer .item02 .lside .appCode .code {
+          width: 106px;
+          height: 106px;
+          background: url(http://res.360kad.com/theme/default/img/2014newKad/codeallbgs.gif) 0 0 no-repeat; }
+        .footer .item02 .lside .appCode .pl8 {
+          padding-top: 8px;
+          text-align: center;
+          font-family: "Microsoft YaHei";
+          font-size: 14px; }
+      .footer .item02 .lside .weixinCode {
+        float: right;
+        width: 106px; }
+        .footer .item02 .lside .weixinCode .title {
+          padding-bottom: 8px;
+          text-align: center;
+          font-family: "Microsoft YaHei";
+          font-size: 14px; }
+        .footer .item02 .lside .weixinCode .code {
+          width: 106px;
+          height: 106px;
+          background: url(http://res.360kad.com/theme/default/img/2014newKad/codeallbgs.gif) -106px 0 no-repeat; }
+        .footer .item02 .lside .weixinCode .title02 {
+          padding-top: 8px;
+          width: 106px;
+          line-height: 16px;
+          text-align: center;
+          font-family: "Microsoft YaHei";
+          font-size: 14px; }
+    .footer .item02 .mside {
+      float: right; }
+      .footer .item02 .mside li {
+        float: left;
+        width: 114px;
+        text-align: left;
+        color: #fff;
+        line-height: 22px; }
+        .footer .item02 .mside li .title {
+          padding-bottom: 12px;
+          font: bold 16px/24px ""; }
+        .footer .item02 .mside li a {
+          color: #fff;
+          text-decoration: none;
+          font-family: "Microsoft YaHei"; }
+        .footer .item02 .mside li a:hover {
+          text-decoration: underline; }
+
+.footer_list {
+  padding-top: 10px;
+  width: 100%;
+  height: 280px;
+  line-height: 22px; }
+  .footer_list .width1200 {
+    width: 1200px;
+    margin: 0 auto; }
+    .footer_list .width1200 p .title {
+      font-weight: bold;
+      color: #666; }
+  .footer_list a {
+    padding-right: 12px;
+    color: #666; }
+  .footer_list a:hover {
+    color: red;
+    text-decoration: underline; }
+  .footer_list .aboutKadList {
+    margin-top: 6px;
+    padding-top: 6px;
+    text-align: center; }
+  .footer_list p .friendLinks {
+    height: 22px;
+    overflow: hidden; }
+  .footer_list .diploma_list {
+    padding: 0 0 20px 16px;
+    text-align: center; }
+  .footer_list .hyRz {
+    width: 100%;
+    text-align: center;
+    height: 47px; }
+    .footer_list .hyRz li {
+      width: 128px;
+      height: 100%;
+      padding-left: 8px;
+      display: inline-block; }
+      .footer_list .hyRz li a {
+        padding-right: 0;
+        float: left;
+        color: #333;
+        line-height: 18px; }
+      .footer_list .hyRz li a:hover {
+        color: red;
+        text-decoration: underline; }
+      .footer_list .hyRz li .txt {
+        padding-right: 4px;
+        width: 82px;
+        background: url(http://res.360kad.com/theme/default/img/2014newKad/rightLine.png) no-repeat right 6px; }
+  .footer_list .bottom {
+    padding: 5px 0;
+    text-align: center;
+    color: #666;
+    height: 31px; }
+    .footer_list .bottom a {
+      padding-right: 0; }

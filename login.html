@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>用户登陆</title>
+    <link rel="stylesheet" href="/css/common.css" type="text/css"/>
+    <link rel="stylesheet" href="/css/login.css" type="text/css"/>
+</head>
+<body>
+    <!-- 头部 -->
+    <div class="header">
+        <div class="headerLogo fl">
+            <div class="logo">
+                <a href="http://localhost:8000/index.html"><img src="../images/header/logo.jpg" alt=""></a>
+            </div>
+            <div class="autoSlogo">
+                <img src="/images/header/autoSlogo.gif" alt="">
+            </div>
+        </div>
+        <div class="headerTitle fl">欢迎登陆</div>
+    </div>
+    <!-- 主体部分 -->
+    <div class="container">
+        <div class="containerCon">
+            <div class="containderL fl">
+                <img src="/images/loginAndRegist/login_l.jpg"/>
+            </div>
+            <div class="containderR fr">
+                <div class="container-right-wrap">
+                    <span style="cursor:pointer" class="container-ewm"><img src="http://res3.360kad.com/theme/user/img/login_ewm.jpg"></span>
+                    <h3 class="login-title">欢迎登录</h3>
+                    <div class="login-input">
+                        <i class="input-icon fl"></i>
+                        <input class="Linput fl" type="text" name=""  id="UserName" placeholder="请输入用户手机号码">
+                    </div>
+                    <div id="idPrompt" class="prompt-wrap" >
+                        <p class="input-prompt" style="display:none">
+                            <i class="prompt-icon"></i>
+                            <span class="prompt-size">您输入的手机号码有误或不存在，请从新输入！</span>
+                        </p>
+                    </div>
+                    <p class="login-input pwd-input">
+                        <i class="input-icon fl"></i>
+                        <input class="Linput fl" type="password"  name="" id="UserPassword" value="" placeholder="请输入您的密码">
+                    </p>
+                    <div id="pwdPrompt" class="prompt-wrap">
+                        <p class="input-prompt" style="display:none">
+                            <i class="prompt-icon"></i>
+                            <span class="prompt-size">密码长度应在6-20位之间！</span>
+                        </p>
+                    </div>
+                    <p class="login-select">
+                        <input class="Cinput" type="checkbox" name=""  id="IsRemberName" value="false">
+                        <span class="Csize">3天免登录</span>
+                    </p>
+                    <a id="LoginButton" class="login-btn">登&nbsp;&nbsp;&nbsp;&nbsp;录</a>
+                    <p class="login-register">
+                        <a href="http://localhost:8000/regist.html" class="register-left">免费注册&gt;</a>
+                        <a href="" class="register-right">忘记密码？</a>
+                    </p>
+                    <div class="login-order">
+                        <p class="order-title">
+                            <span class="order-size">使用合作网站帐号登录康爱多</span>
+                        </p>
+                        <div class="order-cont">
+                            <ul class="">
+                                <li class="li1"><a title="微信登录" href=""></a></li>
+                                <li class="li2"><a title="QQ登录" href=""></a></li>
+                                <li class="li3"><a title="淘宝登录" href=""></a></li>
+                                <li class="li4"><a title="支付宝登录" href=""></a></li>
+                                <li class="li5"><a title="新浪微博登录" href=""></a></li>
+                                <li class="li6"><a title="健保通（医卡通）登录" href=""></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script data-main ="/js/modulejs/login.js" src ="/js/require.js"></script>
+</html>

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>用户注册</title>
+    <link rel="stylesheet" href="/css/common.css" type="text/css"/>
+    <link rel="stylesheet" href="/css/regist.css" type="text/css"/>
+</head>
+<body>
+    <!-- 头部 -->
+    <div class="header">
+        <div class="headerLogo fl">
+            <div class="logo">
+                <a href="http://localhost:8000/index.html"><img src="../images/header/logo.jpg" alt=""></a>
+            </div>
+            <div class="autoSlogo">
+                <img src="/images/header/autoSlogo.gif" alt="">
+            </div>
+        </div>
+        <div class="headerTitle fl">欢迎注册</div>
+        <div class="toLogin fr">
+            已有账号，<a href="http://localhost:8000/login.html">立即登录&gt;</a>
+        </div>
+    </div>
+    <!-- 主体 -->
+    <div class="container">
+        <div class="registCon">
+            <h3 class="register-title">
+                    欢迎注册康爱多账号
+            </h3>
+            <div class="register-from">      
+                <div class="bind-input-wrap">
+                    <div class="bind-input">
+                        <p class="user-font">手机号码</p>
+                        <input name="tianchongnimei" maxlength="11" type="tel" class="user-name" id="txtMobile"  value="" placeholder="请输入手机号码" >
+                        <p class="yes-icon"  id="mobileIcon"><i></i></p>
+                    </div>
+                    <p class="input-prompt bind-cont-prompt" id="mobileErrorMsg">
+                        <i class="prompt-icon" ></i>
+                        <span class="prompt-size"></span>
+                    </p>
+                </div>
+                <div class="bind-input-wrap">
+                    <div class="bind-input">
+                        <p class="user-font psw-font">密码</p>
+                        <input name="tianchongnimei" maxlength="20" type="password" class="user-name" id="txtPwd" value=""  placeholder="请输入您的密码">
+                        <p id="showPwd" class="yes-icon eye-icon"><i id="isShowPwd" class="closeeyes"></i></p>
+                    </div>
+                    <p class="input-prompt bind-cont-prompt"  id="pwdErrorMsg">
+                        <i class="prompt-icon"></i>
+                        <span class="prompt-size"></span>
+                    </p>
+                </div>
+                <div class="bind-input-wrap">
+                    <div class="bind-code">
+                        <p class="user-font code-font">图形验证码</p>
+                        <input type="text" maxlength="4" class="code-name" name="" id="txtImgCode" value=""  placeholder="请输入图形验证码">
+                    </div>
+                    <div class="code-pic" id="code-pic">
+                        <a href=""><img id="getGraphCode" ></a>
+                    </div>
+                    <p class="input-prompt bind-cont-prompt" id="imgCodeErrorMsg">
+                        <i class="prompt-icon"></i>
+                        <span class="prompt-size">您输入的图形验证码有误！</span>
+                    </p>
+                </div>
+                <div class="bind-input-wrap clearfix">
+                    <div class="bind-code">
+                        <p class="user-font code-font">短信验证码</p>
+                        <input type="text" maxlength="6" class="code-name" name="" id="txtMobileCode" value=""  placeholder="请输入短信验证码">
+                    </div>
+                    <div id="getCode" class="code-email">点击获取短信验证码</div>
+                    <p class="input-prompt bind-cont-prompt"  id="mobileCodeErrorMsg">
+                        <i class="prompt-icon"></i>
+                        <span class="prompt-size">您输入的验证短信有误！</span>
+                    </p>
+                </div>
+                <p class="bind-size clearfix"><input class="Cinput" type="checkbox" checked="true" name="" id="kadText" value=""><span class="fl">我已阅读并同意<a href="" target="_blank">《康爱多网上药店服务协议》</a>及<a href="" target="_blank">隐私声明</a></span></p>
+                <a  id="toLogin" class="login-btn">立即注册</a>
+                <div class="pay-type">
+                    <div class="payt-top">
+                        <p class="paytop-name">使用合作网站账号登录康爱多</p>
+                    </div>
+                    <ul>
+                        <li class="ptype-wechat"><a title="微信登录" href=""></a></li>
+                        <li class="ptype-qq"><a title="QQ登录" href=""></a></li>
+                        <li class="ptype-tb"><a title="淘宝登录" href=""></a></li>
+                        <li class="ptype-zfb"><a title="支付宝登录" href=""></a></li>
+                        <li class="ptype-sina"><a title="新浪微博登录" href=""></a></li>
+                        <li class="ptype-ykt"><a title="健保通（医卡通）登录" href=""></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 底部 -->
+    <div class="footer">
+        <div class="footer-container">
+            <p class="footer-about">
+                <a href="http://www.360kad.com/zhuanti/pc_pifa.shtml" target="_blank" class="pifa_shop">批发招商
+                    <span></span>
+                </a> |
+                <a href="http://help.360kad.com/about/kankan" target="_blank">关于我们</a> |
+                <a href="http://www.360kad.com/zhuanti/kad_zsyd.shtml" target="_blank">
+                    掌上药店
+                </a> |
+                <a href="http://help.360kad.com/about/entitygz" target="_blank">
+                    实体药店
+                </a> |
+                <a href="http://help.360kad.com/About/Recruitment" target="_blank">加入康爱多</a> |
+                <a href="http://help.360kad.com/About/CallUs" target="_blank">联系我们</a> |
+                <a href="http://www.360kad.com/Supplier" target="_blank">商务合作</a> |
+                <a href="http://help.360kad.com/About/Authen" rel="nofollow" target="_blank">经营认证</a> |
+                <a href="http://help.360kad.com/About/FriendlyLink" target="_blank">友情链接</a> |
+                <a href="http://www.360kad.com/TagList.aspx" target="_blank">
+                    TAG列表
+                </a> |
+                <a href="http://www.360kad.com/SiteMap.shtml" target="_blank">网站地图</a> |
+                <a href="http://cps.360kad.com/" target="_blank">CPS联盟</a>
+            </p>
+            <p class="footer-about">
+                <a class="pr8" title="互联网药品交易服务资格证书" target="_blank" href="http://help.360kad.com/about/AuthenBusiness">
+                    互联网药品交易服务资格证书
+                </a>|
+                <span class="bottomPadding01">
+                    <a title="互联网药品信息服务资格证书" target="_blank" href="http://help.360kad.com/About/AuthenInfo">
+                        互联网药品信息服务资格证书
+                    </a>
+                </span>|
+                <span class="bottomPadding01">
+                    <a title="执业药师证" target="_blank" href="http://help.360kad.com/About/AuthenManage">执业药师证</a>
+                </span>|
+                <span class="bottomPadding02">
+                    <a title="药品经营许可证" target="_blank" href="http://help.360kad.com/About/AuthenManage">药品经营许可证</a>
+                </span>|
+                <span class="bottomPadding02">
+                    <a title="食品流通许可证" target="_blank" href="http://help.360kad.com/About/AuthenLiuTong">
+                        食品流通许可证
+                    </a>
+                </span>|
+                <span class="bottomPadding02">
+                    <a title="公司营业执照" target="_blank" href="http://help.360kad.com/About/Authen">公司营业执照</a>
+                </span>|
+                <span>
+                    <a title="GSP认证证书" target="_blank" href="http://help.360kad.com/About/AuthenGSP">
+                        GSP认证证书
+                    </a>
+                </span>|
+                <span>
+                    <a href="http://help.360kad.com/About/AuthenTeleservice" target="_blank" >增值电信业务经营许可证 &nbsp;</a>
+                </span>
+            </p>
+            <p class="copyright">©2010-2016 广东<a id="kad" href="http://www.360kad.com">康爱多网上药店</a>版权所有，并保留所有权利</p>
+        </div>
+    </div>
+</body>
+<script data-main ="/js/modulejs/regist.js" src ="/js/require.js"></script>
+</html>

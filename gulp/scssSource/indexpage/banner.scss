@@ -1,0 +1,72 @@
+.banner{
+    position: relative;
+    height: 400px;
+    width: 100%;
+    overflow: hidden;
+    background: url(/images/banner/banner_bg.png) no-repeat top center;
+    .banner_con{
+        width: 840px;
+        height: 100%;
+        margin: 0 auto;
+        li,a,img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .rightSide{
+        position: absolute;
+        left: 1180px;
+        top: 0;
+        width: 180px;
+        height: 400px;
+        background: #fff;
+        .msg_rightSide {
+            padding: 5px 0;
+            width: 100%;
+            ul li {
+                float: left;
+                padding-left: 10px;
+                text-align: center;
+            }
+        }
+        .yaozi {
+            border-bottom: 1px solid #efefef;
+            border-top: 1px solid #efefef;
+            height: 36px;
+            line-height: 36px;
+            .zixunY {
+                font-size: 14px;
+                color: #131313;
+                font-family: "微软雅黑";
+                display: block;
+                padding-left: 15px;
+            }
+            .phoneN {
+                font-size: 14px;
+                font-family: "微软雅黑";
+                font-weight: bold;
+                color: #f73934;
+                display: block;
+                
+            }
+        }
+        .Sinfor {
+            height: 36px;
+            line-height: 36px;
+            a{
+                font-size: 13px;
+                line-height: 36px;
+                text-align: left;
+                padding-left: 15px;
+            }
+        }
+        .kadN_msg{
+            height: 191px;
+            width:180px;
+        }
+        .kadN_msg a, .kadN_msg img {
+            height: 100%;
+            width: 100%;
+        }
+    }
+}
