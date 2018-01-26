@@ -47,6 +47,19 @@ define(["jquery"], function ($) {
 				expires = undefined;
 			}
 			document.cookie = key + "=" + value + ";" + (expires ? "expires=" + expires + ";" : "") + (path ? "path=" + path + ";" : "");
+		},
+
+		//获取地址栏参数
+		getAddressParams: function getAddressParams(param) {
+			var theRequest = new Object();
+			if (param.indexOf("?") != -1) {
+				var str = param.substr(1); //substr()方法返回从参数值开始到结束的字符串；  
+				var strs = str.split("&");
+				for (var i = 0; i < strs.length; i++) {
+					theRequest[strs[i].split("=")[0]] = strs[i].split("=")[1];
+				}
+			}
+			return theRequest;
 		}
 	};
 });

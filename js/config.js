@@ -13,7 +13,11 @@ requirejs.config({
 		'category':'modulejs/indexpage/category',
 		'hotpro':'modulejs/indexpage/hotpro',
 		'changeP':'modulejs/indexpage/changeP',
-		'mainfoor':'modulejs/indexpage/mainfoor'
+		'mainfoor':'modulejs/indexpage/mainfoor',
+		'advertisement':'modulejs/prodetail/advertisement',
+		'addproduct':'modulejs/prodetail/addproduct',
+		'productdetail':'modulejs/prodetail/productdetail',
+		'prorecomend':'modulejs/prodetail/prorecomend'
 	},
 	shim: {
 	  

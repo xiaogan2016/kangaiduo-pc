@@ -49,7 +49,7 @@ gulp.task("webserver", function () {
 							target:'http://www.360kad.com/',
 							changeOrigin: true,
 							pathRewrite: {
-								'^/api' : ''
+								'^(/api|/html/api)' : ''
 							}
 						}	
 					),

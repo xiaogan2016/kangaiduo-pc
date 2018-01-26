@@ -1,0 +1,47 @@
+[
+    {
+        "Advertisement": "【年货盛宴返场1天】特惠39.8元起！女性专场2折起抢购，礼包9.9元3件，年关物流慢，提前购过健康年！",
+        "CreateAt": "/Date(1516935127000)/",
+        "DYID": "24492",
+        "DrugName": "钙尔奇D",
+        "IsRx": false,
+        "LinkId": "24492",
+        "MarketPrice": 47,
+        "Model": "(300mg+D3 60)*60片",
+        "Pic": "http://image.360kad.com/group1/M00/3A/16/CgAgEVdzNAGAa-E7AAGqQS6K6DY200.jpg_180x180.jpg",
+        "Price": 42,
+        "ShowName": "钙尔奇D (300mg+D3 60)*60片",
+        "WareName": "钙尔奇D 碳酸钙D3咀嚼片(II) (300mg+D3 60)*60片",
+        "WareSkuCode": "1315"
+    },
+    {
+        "Advertisement": "【年货盛宴返场1天】特惠52元起！女性专场2折起抢购，礼包9.9元3件，年关物流慢，提前购过健康年！",
+        "CreateAt": "/Date(1516931615000)/",
+        "DYID": "24413",
+        "DrugName": "钙尔奇D",
+        "IsRx": false,
+        "LinkId": "24413",
+        "MarketPrice": 68,
+        "Model": "(600mg+D3 125IU)*60片",
+        "Pic": "http://image.360kad.com/group1/M00/A4/42/CgAgEVkZSqmAa7aVAAGiI3HCkl8051.jpg_180x180.jpg",
+        "Price": 53,
+        "ShowName": "钙尔奇D (600mg+D3 125IU)*60片",
+        "WareName": "钙尔奇D 碳酸钙D3片 (600mg+D3 125IU)*60片",
+        "WareSkuCode": "1266"
+    },
+    {
+        "Advertisement": "【年货盛宴返场1天】特惠20元起！女性专场2折起抢购，礼包9.9元3件，年关物流慢，提前购过健康年！",
+        "CreateAt": "/Date(1516931387000)/",
+        "DYID": "24493",
+        "DrugName": "钙尔奇D",
+        "IsRx": false,
+        "LinkId": "24493",
+        "MarketPrice": 28,
+        "Model": "300mg*30片",
+        "Pic": "http://image.360kad.com/group1/M00/2D/2C/CgAgEFcqv_KAYUEMAAHCMrvkrK0605.jpg_180x180.jpg",
+        "Price": 22,
+        "ShowName": "钙尔奇D 300mg*30片",
+        "WareName": "钙尔奇D 碳酸钙D3咀嚼片(Ⅱ) 300mg*30片",
+        "WareSkuCode": "1314"
+    }
+]

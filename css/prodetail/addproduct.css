@@ -172,8 +172,7 @@
             line-height: 20px; }
           .addproduct .addProCon .addProConM .double11-promote .double11-tegong p:first-child {
             margin-top: 8px; }
-          .addproduct .addProCon .addProConM .double11-promote .double11-tegong .tegong-p2 span {
-            color: #f83938;
+          .addproduct .addProCon .addProConM .double11-promote .double11-tegong .tegong-p2 {
             font-size: 18px;
             font-weight: bold; }
       .addproduct .addProCon .addProConM .prem-ac-information {
@@ -211,6 +210,16 @@
               margin-left: 24px;
               margin-top: 15px;
               font-weight: normal; }
+            .addproduct .addProCon .addProConM .prem-ac-information .prem-nophone .nophone-r .nophone-rspan5 {
+              color: #888888;
+              font-size: 14px;
+              margin-left: 24px;
+              margin-top: 15px;
+              font-weight: normal; }
+              .addproduct .addProCon .addProConM .prem-ac-information .prem-nophone .nophone-r .nophone-rspan5 .henan_price {
+                font-size: 16px;
+                color: red;
+                font-weight: 600; }
         .addproduct .addProCon .addProConM .prem-ac-information .prem-ac-ifm-cuxiao {
           height: 133px;
           width: 100%;
