@@ -33,6 +33,6 @@
     2.在命令行进入到项目目录，安装依赖包。$cnpm i;
     3.$gulp default
 
-    注：项目迭代时创建新的需要创建新的scss文件和ES6的js源文件，为了编译生成执行css和ES5的js文件
-    要执行$gulp compileSass  和 $gulp compileJs
+    注：项目迭代开发中，当需要创建新的scss文件或ES6的js源文件时，为了编译生成css文件或符合ES5的js文件
+    要执行$gulp compileSass  或 $gulp compile
 ```
