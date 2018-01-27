@@ -26,3 +26,13 @@
 2.图片验证码数据请求错误
 3.反向代理遇到一些坑
 ```
+
+### 5.启动项目步骤
+```
+    1.将项目从github上pull或clone到本地;
+    2.在命令行进入到项目目录，安装依赖包。$cnpm i;
+    3.$gulp default
+
+    注：项目迭代时创建新的需要创建新的scss文件和ES6的js源文件，为了编译生成执行css和ES5的js文件
+    要执行$gulp compileSass  和 $gulp compileJs
+```
