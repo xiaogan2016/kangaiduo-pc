@@ -31,7 +31,7 @@
 ```
     1.将项目从github上pull或clone到本地;
     2.在命令行进入到项目目录，安装依赖包。$cnpm i;
-    3.启动项目$gulp default
+    3.启动项目$gulp
 
     注：项目迭代开发中，当需要创建新的scss文件或ES6的js源文件时，为了编译生成css文件或符合ES5的js文件
     要执行$gulp compileSass  或 $gulp compileJs
